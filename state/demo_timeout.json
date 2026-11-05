@@ -14,7 +14,7 @@
   "llm_calls": 0,
   "tokens_used": 0,
   "step_number": 0,
-  "elapsed_seconds": 0.0015070438385009766,
+  "elapsed_seconds": 0.0010137557983398438,
   "tools_executed": [],
   "messages": [
     {
