@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "run_id": "demo_timeout",
+  "scenario_id": "S1",
+  "system_prompt": "AGENT. Use the provided tools to process this simulated refund. Never invent observations. Follow verified eligibility and amount checks. Return a final status and concise explanation.",
+  "user_message": "My order ORD-100048 reached me very late. I would like a refund.",
+  "authorized_order_id": "ORD-100048",
+  "execution_state": "finished",
+  "limits": {
+    "max_iterations": 6,
+    "token_limit": 6000,
+    "timeout_seconds": 1e-05
+  },
+  "llm_calls": 0,
+  "tokens_used": 0,
+  "step_number": 0,
+  "elapsed_seconds": 0.0015070438385009766,
+  "tools_executed": [],
+  "messages": [
+    {
+      "role": "system",
+      "content": "AGENT. Use the provided tools to process this simulated refund. Never invent observations. Follow verified eligibility and amount checks. Return a final status and concise explanation."
+    },
+    {
+      "role": "user",
+      "content": "My order ORD-100048 reached me very late. I would like a refund."
+    }
+  ],
+  "steps": [],
+  "result": {
+    "run_id": "demo_timeout",
+    "scenario_id": "S1",
+    "status": "FALLBACK_TIMEOUT",
+    "final_answer": "Execution timed out before resolution.",
+    "steps": [],
+    "llm_calls": 0,
+    "tokens_used": 0,
+    "refund_inr": 0.0
+  }
+}

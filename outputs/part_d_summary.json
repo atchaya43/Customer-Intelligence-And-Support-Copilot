@@ -1,0 +1,43 @@
+{
+  "rag_10_accuracy": 1.0,
+  "rag_0_accuracy": 0.6666666666666666,
+  "scenarios_completed": 7,
+  "scenario_statuses": [
+    {
+      "scenario": "S1",
+      "status": "REFUND",
+      "refund_inr": 128.25
+    },
+    {
+      "scenario": "S2",
+      "status": "REFUND",
+      "refund_inr": 135.0
+    },
+    {
+      "scenario": "S3",
+      "status": "ESCALATE",
+      "refund_inr": 1999.0
+    },
+    {
+      "scenario": "S4",
+      "status": "DENIED",
+      "refund_inr": 0.0
+    },
+    {
+      "scenario": "S5",
+      "status": "DENIED",
+      "refund_inr": 0.0
+    },
+    {
+      "scenario": "S6",
+      "status": "NOT_FOUND",
+      "refund_inr": 0.0
+    },
+    {
+      "scenario": "S7",
+      "status": "FALLBACK_MAX_ITERATIONS",
+      "refund_inr": 0.0
+    }
+  ],
+  "demonstrations_verified": true
+}

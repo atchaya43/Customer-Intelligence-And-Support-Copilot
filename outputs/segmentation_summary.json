@@ -1,0 +1,96 @@
+{
+  "snapshot": "2025-10-01 00:00:00",
+  "customers": 1175,
+  "recency_median": 19.0,
+  "recency_min": 0,
+  "recency_max": 180,
+  "frequency_mean": 9.45531914893617,
+  "frequency_max": 33,
+  "monetary_mean": 2552.0585531914894,
+  "monetary_max": 14766.55,
+  "selected_k": 4,
+  "pca_variance": [
+    0.6342787496047422,
+    0.21803761714547434
+  ],
+  "pca_variance_total": 0.8523163667502165,
+  "kmeans_comparison": [
+    {
+      "k": 2,
+      "inertia": 1820.7605530118512,
+      "silhouette": 0.464971805147615
+    },
+    {
+      "k": 3,
+      "inertia": 1268.2345870687618,
+      "silhouette": 0.4451611905197954
+    },
+    {
+      "k": 4,
+      "inertia": 743.0711078443475,
+      "silhouette": 0.5255443348818724
+    },
+    {
+      "k": 5,
+      "inertia": 617.3666358545,
+      "silhouette": 0.48049500840771253
+    },
+    {
+      "k": 6,
+      "inertia": 503.17062225816545,
+      "silhouette": 0.4818721636138158
+    },
+    {
+      "k": 7,
+      "inertia": 408.46045441940896,
+      "silhouette": 0.4163373417690264
+    },
+    {
+      "k": 8,
+      "inertia": 366.5034865531682,
+      "silhouette": 0.4123290612695322
+    }
+  ],
+  "profiles": [
+    {
+      "segment_id": 0,
+      "customers": 436,
+      "mean_recency": 28.862385321100916,
+      "mean_frequency": 3.772935779816514,
+      "mean_monetary": 1057.618233944954,
+      "segment_name": "Occasional",
+      "recommended_action": "Encourage a second shopping occasion with relevant basket suggestions.",
+      "is_premium": false
+    },
+    {
+      "segment_id": 1,
+      "customers": 138,
+      "mean_recency": 24.115942028985508,
+      "mean_frequency": 6.768115942028985,
+      "mean_monetary": 7129.695652173913,
+      "segment_name": "Premium",
+      "recommended_action": "Offer priority service and personalised high-value retention outreach.",
+      "is_premium": true
+    },
+    {
+      "segment_id": 2,
+      "customers": 419,
+      "mean_recency": 8.766109785202865,
+      "mean_frequency": 19.403341288782816,
+      "mean_monetary": 3410.020525059666,
+      "segment_name": "Frequent",
+      "recommended_action": "Reward repeat grocery shopping with replenishment reminders and loyalty benefits.",
+      "is_premium": false
+    },
+    {
+      "segment_id": 3,
+      "customers": 182,
+      "mean_recency": 109.04395604395604,
+      "mean_frequency": 2.2032967032967035,
+      "mean_monetary": 685.9925824175824,
+      "segment_name": "Dormant",
+      "recommended_action": "Test a limited win-back offer and ask what stopped repeat purchases.",
+      "is_premium": false
+    }
+  ]
+}
