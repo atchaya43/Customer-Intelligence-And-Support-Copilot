@@ -14,7 +14,7 @@
   "llm_calls": 5,
   "tokens_used": 1002,
   "step_number": 4,
-  "elapsed_seconds": 0.010094404220581055,
+  "elapsed_seconds": 0.00884246826171875,
   "tools_executed": [
     "get_order",
     "search_policy",
